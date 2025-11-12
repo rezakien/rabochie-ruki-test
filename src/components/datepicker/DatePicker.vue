@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { QInput, QBtn, QIcon } from 'quasar'
 import { onMounted, onUnmounted, ref } from 'vue'
 import { useDatePickerStore } from '@/stores/datepicker'
 import { useFloating, offset } from '@floating-ui/vue'

@@ -4,7 +4,6 @@ import { storeToRefs } from 'pinia'
 import { computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useDatePickerStore, type Cell } from '@/stores/datepicker'
-import { getFormattedDate } from '@/utils/date'
 
 interface Emits {
   (e: 'pick-date'): void
